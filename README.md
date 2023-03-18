@@ -1,12 +1,11 @@
 # Ensemble_DecisionTree
-This repo serves as part of the Ensemble Learning course project, with a goal of implementing a Decision Tree from scratch on Python allowing to deal with both a regression task and a classification task
+This repo serves as part of the Ensemble Learning course project, with a goal of implementing a Decision Tree from scratch on Python allowing us to deal with both regression and classification task
 
 # Files
-1. Classification.ipynb includes email classification task using decision tree
-2. Regression.ipynb includes airbnb price prediction regression task using decision tree
-3. train.csv includes email classification dataset
-4. AB_NYC_2019.csv includes airbnb price prediction dataset
+1. algorithm.py contains main code defining the decision tree
+2. Classification.ipynb contains index classification task using Body Mass Index dataset
+3. Regression.ipynb contains height prediction regression task using Body Mass Index dataset
+4. 500_Person_Gender_Height_Weight_Index.csv contains Body Mass Index dataset including 4 coulmns (Gender, Height, Weight and Index)
 
 # Credits
-- [Airbnb price prediction data set](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
-- [Email Classification data set](https://www.kaggle.com/competitions/dsba-fm-centralesupelec-ml-course)
+- [Body Mass Index data set](https://www.kaggle.com/datasets/yersever/500-person-gender-height-weight-bodymassindex)
