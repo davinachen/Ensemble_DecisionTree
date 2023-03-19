@@ -167,7 +167,7 @@ def calculate_accuracy(df, column_types, ml_task, leaves, split_conditions):
     if ml_task == 'regression':    
         predictions_array = predictions.values
         target_array = df.target.values
-        metric = sum((predictions_array - target_array)**2) / len(predictions_array)
+        metric = np.sqrt(sum((predictions_array - target_array)**2) / len(predictions_array))
         
     else:
         predictions_correct = predictions == df.target
